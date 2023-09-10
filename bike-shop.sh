@@ -54,7 +54,7 @@ RENT_MENU(){
             # if not available
             if [[ -z $BIKE_AVAILABILITY ]]
             then
-                # send to main menu
+                # send to main menuhttps://github.blog/changelog/2023-09-08-private-beta-sign-up-for-full-access-to-the-ghec-enterprise-managed-users-scim-api
                 MAIN_MENU "That bike is not available."
             fi
         fi
