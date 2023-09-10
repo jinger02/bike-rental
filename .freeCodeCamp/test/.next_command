@@ -141,3 +141,14 @@ git config -l
 git status
 git status
 git add .
+git status
+git commit -m "First commit"
+git push origin main
+git remote add origin git@github.com:jinger02/bike-rental.git
+git push origin main
+git push
+git push -u -f origin main
+git push origin master
+git push origin main
+git branch -M main
+git add .
