@@ -216,3 +216,8 @@ git push origin main
 git push --force origin main
 __vsc_prompt_cmd_original
 git add .
+git commit -m "Create rent menu"
+git push origin main
+pg_dump -cC --inserts -U bikes > bikes.sql
+pg_dump -cC --inserts -U freecodecamp bikes > bikes.sql
+git add .
