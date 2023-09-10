@@ -137,3 +137,7 @@ __vsc_prompt_cmd_original
 ./bike-shop.sh
 ./bike-shop.sh
 ./bike-shop.sh
+git config -l
+git status
+git status
+git add .
