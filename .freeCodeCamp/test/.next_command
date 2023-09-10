@@ -224,3 +224,4 @@ git add .
 git commit -m "add database"
 git push origin main
 clear
+git add .
