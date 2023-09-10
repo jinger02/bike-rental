@@ -56,6 +56,12 @@ RENT_MENU(){
             then
                 # send to main menuhttps://github.blog/changelog/2023-09-08-private-beta-sign-up-for-full-access-to-the-ghec-enterprise-managed-users-scim-api
                 MAIN_MENU "That bike is not available."
+            else
+                # get customer info
+                # if customer doesn't exist
+                # get new customer name
+                # insert new customer
+
             fi
         fi
     fi

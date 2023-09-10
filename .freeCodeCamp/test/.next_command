@@ -221,3 +221,6 @@ git push origin main
 pg_dump -cC --inserts -U bikes > bikes.sql
 pg_dump -cC --inserts -U freecodecamp bikes > bikes.sql
 git add .
+git commit -m "add database"
+git push origin main
+clear
