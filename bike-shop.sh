@@ -54,12 +54,14 @@ RENT_MENU(){
             # if not available
             if [[ -z $BIKE_AVAILABILITY ]]
             then
-                # send to main menuhttps://github.blog/changelog/2023-09-08-private-beta-sign-up-for-full-access-to-the-ghec-enterprise-managed-users-scim-api
+                # send to main menu 
                 MAIN_MENU "That bike is not available."
             else
                 # get customer info
                 echo -e "\nWhat's your phone number?"
                 read PHONE_NUMBER
+                CUSTOMER_NAME=$($PSQL "SELECT name FROM customers WHERE phone = '$PHONE_NUMBER'")
+
                 # if customer doesn't exist
                 # get new customer name
                 # insert new customer
