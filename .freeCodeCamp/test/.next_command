@@ -229,3 +229,4 @@ git commit -m "add else clause to rent_menu"
 git push origin main
 ./bike-shop.sh
 ./bike-shop.sh
+./bike-shop.sh
