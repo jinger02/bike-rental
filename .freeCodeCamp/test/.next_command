@@ -356,3 +356,7 @@ psql --username=freecodecamp --dbname=postgres
 ./bike-shop.sh
 ./bike-shop.sh
 git add .
+git commit -m "finish bike shop"
+clear
+./bike-shop.sh
+git add .
