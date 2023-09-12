@@ -276,3 +276,4 @@ echo "$(echo ' M e ' | sed -E 's/^ *| *$//g')."
 git add .
 git commit -m "finish rent menu"
 git push origin main
+./bike-shop.sh
